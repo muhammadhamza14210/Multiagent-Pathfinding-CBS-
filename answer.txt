@@ -1,0 +1,9 @@
+State Representation:
+
+CBS A*: The state representation in CBS A* includes information about the positions and constraints of multiple agents, enabling the algorithm to resolve conflicts between these agents during the search.
+Single-Agent A*: The state representation in single-agent A* focuses solely on the position of a single agent, without considering conflicts with other agents.
+
+Successor Generation:
+
+CBS A*: When generating successors in CBS A*, the algorithm considers the constraints and paths of multiple agents to ensure that the generated successors adhere to the constraints imposed by other agents and resolve conflicts.
+Single-Agent A*: Successor generation in single-agent A* is concerned only with the constraints and paths of a single agent, without accounting for interactions or conflicts with other agents.
